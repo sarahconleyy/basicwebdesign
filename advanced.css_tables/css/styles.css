@@ -1,0 +1,148 @@
+body{
+    background-color: #D9C99A;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+h1, h2, h3{
+    color: #C85454;
+    text-align: center;
+}
+
+p{
+    color: #505A59;
+}
+
+li{
+    color: #505A59;
+}
+
+#container{
+    background-color: #D1CCBE;
+    width: 60%;
+    margin: 20px auto;
+    border: 5px solid #E5C2A2;
+    border-radius: 20px;
+}
+
+nav{
+    background-color: #CAA786;
+    padding: 2px 0;
+    text-align: center;
+}
+
+nav ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: block;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color:#505A59 ;
+    text-decoration: none;
+    border: 2px solid #C85454;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+nav li a:hover{
+    background-color: #505A59;
+    color: #C85454;
+    border: 6px double #505A59;
+}
+
+main{
+    display: flex;
+}
+
+section, aside{
+    border: 2px solid #C85454;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+section{
+    width: 60%;
+}
+
+aside{
+    width: 20%;
+}
+
+.single_page{
+    width: 100%;
+}
+
+#main_img_resize{
+    width: 75%;
+}
+
+#lower_area{
+    display: flex;
+}
+
+.col{
+    border: 2px solid #C85454;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #CAA786;
+    text-align: center;
+    padding: 20px;
+    color: #505A59;
+    font-weight: bold;
+}
+
+.button {
+   display: block;
+   background-color: #505A59;
+    color: #C85454 ;
+    text-decoration:none;
+    width: 100px;
+    height: 25px;
+    line-height: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #C85454;
+    border-radius: 20px;
+}
+
+.button:hover{
+    background-color: #CAA786;
+    color: #C85454;
+    border: 2px solid #505A59 ;
+}
+
+a{
+    color: #C85454;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+table{
+    border: 1px solid #CAA786 ;
+    border-radius: 20px;
+}
+
+td, tr{
+    border: 1px double #C85454 ;
+    border-radius: 20px;
+}
