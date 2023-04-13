@@ -1,0 +1,144 @@
+body{
+    background-color: #ddd7c3;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#container {
+   background-color:#e2afaf;
+   border-radius: 20px;
+} 
+
+h1, h2, h3 {
+    color: #505A59;
+    text-align: center;
+}
+ 
+a {
+    color: #505A59;
+    text-decoration: underline;
+    text-align: center;
+}
+
+ul{
+    color: #505A59;
+}
+
+td, tr{
+    border: 1px double #C85454 ;
+    border-radius: 20px;
+}
+
+table{
+    border: 1px solid #505A59 ;
+    border-radius: 20px;
+}
+
+.col{
+    border: 2px solid #C85454;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+section, aside{
+    border: 2px solid #C85454;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+nav {
+    background-color: #ddd7c3 ;
+    padding: 2px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+    border-bottom: 2px solid #505A59 ;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background-color:#e2afaf ;
+    color: #505A59;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 5px 0;
+}
+
+nav li a:hover {
+    background-color: #FFA38A;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+}
+
+section{
+    width: 60%;
+}
+
+aside{
+    width: 40%;
+}
+
+.col {
+    padding: 10px;
+}
+
+footer {
+    background-color: #ddd7c3;
+    color: #505A59;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 0;
+}
+
+p {
+    color: #505A59;
+}
+
+.button {
+    display: block;
+    background-color: #ddd7c3;
+     color: #505A59;
+     text-decoration:none;
+     width: 100px;
+     height: 25px;
+     line-height: 10px;
+     margin-top: 10px;
+     padding: 10px;
+     text-align: center;
+     border: 2px solid #505A59;
+     border-radius: 20px;
+ }
+
+ .button:hover{
+    background-color: #96938c;
+    color: #ebaceb;
+    border: 2px solid #505A59 ;
+ }
+
+ #lower_area{
+    display: flex;
+}
+
+.single_page{
+    width: 100%;
+}
