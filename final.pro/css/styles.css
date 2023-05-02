@@ -2,10 +2,12 @@ body{
     background-color: #EA7A32;
 }
 
+
 img{
     display: block;
     margin: 0 auto;
     width: 40%
+    
     
 }
 
@@ -23,6 +25,7 @@ h2{
     font-weight: bold;
     font-family: 'Roboto Mono', monospace;
     font-size: 1.5em;
+    
 }
 
 h3{
@@ -126,10 +129,12 @@ aside{
     font-size: .8em;
     
     
+    
 }
 
 #lower_area{
     display: flex;
+    text-align: center;
     
 }
 
