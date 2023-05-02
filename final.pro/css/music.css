@@ -71,9 +71,9 @@ nav li{
 
 nav li a{
     display: block;
-    width: 190px;
-    height: 45px;
-    line-height: 45px;
+    width: 175px;
+    height: 35px;
+    line-height: 35px;
     font-family: 'Roboto Mono', monospace;
     font-size: 1.1em;
     font-weight: bold;
